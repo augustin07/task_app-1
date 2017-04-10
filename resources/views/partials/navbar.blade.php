@@ -8,7 +8,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Theo's Task App!</a>
+            <a class="navbar-brand" href="#">Chuk's Task buddy</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -16,11 +16,11 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="{{url('/')}}">Home <span class="sr-only">(current)</span></a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Operations <span class="caret"></span></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Options<span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="{{route('add_task.create')}}">Add New Task</a></li>
-                        <li><a href="#">Edit/Delete Task</a></li>
-                        <li><a href="{{route('add_task.index')}}">All Task</a></li>
+                        <li><a href="{{route('add_task.create')}}">Add a New Task</a></li>
+                        <li><a href="#">Edit/Delete a Task</a></li>
+                        <li><a href="{{route('add_task.index')}}">See my tasks</a></li>
 
                     </ul>
                 </li>
