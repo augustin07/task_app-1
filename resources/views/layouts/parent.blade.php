@@ -4,6 +4,16 @@
         <title>Task App</title>
         <link rel="stylesheet" type="text/css" href="{{URL::asset('css/font-awesome.min.css')}}">
         <link rel="stylesheet" type="text/css" href="{{URL::asset('css/bootstrap.min.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{URL::asset('css/animate.css')}}">
+        <link href="{{URL::asset('assets/css/menu.css')}}" rel="stylesheet" type="text/css" />
+        <link href="{{URL::asset('assets/css/core.css')}}" rel="stylesheet" type="text/css" />
+        <link href="{{URL::asset('assets/css/components.css')}}" rel="stylesheet" type="text/css" />
+        <link href="{{URL::asset('assets/css/icons.css')}}" rel="stylesheet" type="text/css" />
+        <link href="{{URL::asset('assets/css/pages.css')}}" rel="stylesheet" type="text/css" />
+        <link href="{{URL::asset('assets/css/responsive.css')}}" rel="stylesheet" type="text/css" />
+        
+        <link href="{{URL::asset('css/custom.css')}}" rel="stylesheet" type="text/css" />
+        <link href="{{URL::asset('assets/css/comments.css')}}" rel="stylesheet" type="text/css" />
     </head>
 <body>
 
@@ -30,6 +40,7 @@
 
             <div class="col-md-12">
                 <!--Content Area-->
+                @include('shared.noty')
 
                 @yield('killer')
             </div>
